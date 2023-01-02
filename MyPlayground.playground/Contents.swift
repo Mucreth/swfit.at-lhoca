@@ -28,4 +28,9 @@ print(upperTest)
 
 var myFavoriteMovie = ["eragon", "lotr", "hp"]
 
+myFavoriteMovie[0]
+myFavoriteMovie[1]
+myFavoriteMovie[2]
 
+myFavoriteMovie.count
+myFavoriteMovie.sort()
