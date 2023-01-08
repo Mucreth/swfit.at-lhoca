@@ -34,3 +34,26 @@ myFavoriteMovie[2]
 
 myFavoriteMovie.count
 myFavoriteMovie.sort()
+
+//set
+
+var mySet : Set = [1, 2, 3, 4, 5, 1, 2]
+var myStringset : Set = ["b", "c", "a"]
+var myInt = Set(mySet)
+print(myInt)
+
+
+//dictinory
+
+var myFavoriteDirector = ["korku" : "deccal", "fanta" : "marvel"]
+
+myFavoriteDirector["korku"]
+myFavoriteDirector["fanta"]
+
+myFavoriteDirector["korku"] = "decaal 2"
+print(myFavoriteDirector)
+
+myFavoriteDirector["seven samurai"] = "akira"
+print(myFavoriteDirector)
+
+var myDictinory = ["kRun" : 100, "sport" : 250]
